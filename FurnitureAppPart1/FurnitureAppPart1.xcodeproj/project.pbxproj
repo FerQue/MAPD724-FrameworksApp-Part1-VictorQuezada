@@ -14,6 +14,8 @@
 		55C2876329D07F4E00C921E3 /* LibreBaskerville-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55C2876229D07F4E00C921E3 /* LibreBaskerville-Regular.ttf */; };
 		55C2876529D07F5A00C921E3 /* LibreBaskerville-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55C2876429D07F5A00C921E3 /* LibreBaskerville-Bold.ttf */; };
 		55C2876729D07F6500C921E3 /* LibreBaskerville-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55C2876629D07F6500C921E3 /* LibreBaskerville-Italic.ttf */; };
+		55C2876D29D0DD6F00C921E3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2876C29D0DD6F00C921E3 /* HomeScreen.swift */; };
+		55C2876F29D0F6E400C921E3 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2876E29D0F6E400C921E3 /* DetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		55C2876429D07F5A00C921E3 /* LibreBaskerville-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Bold.ttf"; sourceTree = "<group>"; };
 		55C2876629D07F6500C921E3 /* LibreBaskerville-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Italic.ttf"; sourceTree = "<group>"; };
 		55C2876829D0825A00C921E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		55C2876C29D0DD6F00C921E3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		55C2876E29D0F6E400C921E3 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		55C2875229CFC9F200C921E3 /* FurnitureAppPart1 */ = {
 			isa = PBXGroup;
 			children = (
+				55C2876B29D0DD3900C921E3 /* Screens */,
 				55C2876829D0825A00C921E3 /* Info.plist */,
 				55C2876129D07EFC00C921E3 /* Font */,
 				55C2875329CFC9F200C921E3 /* FurnitureAppPart1App.swift */,
@@ -84,6 +89,15 @@
 				55C2876229D07F4E00C921E3 /* LibreBaskerville-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		55C2876B29D0DD3900C921E3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				55C2876C29D0DD6F00C921E3 /* HomeScreen.swift */,
+				55C2876E29D0F6E400C921E3 /* DetailsScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C2876F29D0F6E400C921E3 /* DetailsScreen.swift in Sources */,
 				55C2875629CFC9F200C921E3 /* ContentView.swift in Sources */,
 				55C2875429CFC9F200C921E3 /* FurnitureAppPart1App.swift in Sources */,
+				55C2876D29D0DD6F00C921E3 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
